@@ -11,7 +11,9 @@ The goal is to count Swedish pronouns frequencies in unique Tweets (not consider
 celery -A celery worker -l INFO
 ```
 In this case, the second 'celery' is the module name of celery.
+
 4. Run the task on the Celery server, and get the result as 'result.json' and 'visualization.png'.
+
 5. Show the josn file through Flask
 ```bash
 curl -i http://ip_address:5000/result
