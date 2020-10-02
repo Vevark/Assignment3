@@ -1,6 +1,6 @@
 # Applied-Cloud-Computing-Assignment-III
 Using RabbitMQ as the borker for the Celery, and using Flask to show a json document as well.
-The data is json files of Tweets given by the teacher.
+The data is json files of Tweets given by the teacher. When handling the data, follow https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/calculate-tweet-word-frequencies-in-python/.
 The goal is to count Swedish pronouns frequencies in unique Tweets (not considering ReTweets).
 
 1. Follow https://docs.celeryproject.org/en/latest/getting-started/brokers/rabbitmq.html#broker-rabbitmq to install and configure RabbitMQ.
