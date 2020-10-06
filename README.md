@@ -22,7 +22,18 @@ In this case, the second 'celery' is the module name of celery.
 
 4. Run the task on the Celery server, and get the result as 'result.json' and 'visualization.png'.
 
-5. Show the josn file through Flask
+```bash
+python run.py
+```
+5. Run the Flask (REST API) server
+
+```bash
+python run_flask.py
+```
+
+## All steps above are done on a VM
+
+6. Show the josn file through Flask (in another terminal, e.g. own PC or laptop)
 
 ```bash
 curl -i http://ip_address:5000/result
