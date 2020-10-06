@@ -26,14 +26,14 @@ def count():
             for line in f:
                 # ignore blank lines
                 if not line.isspace():
-                    # count unique tweets
-                    num += 1
-                    # get context without url & emoji
-                    pre = clean(json.loads(line)["text"])
                     # disregard retweets
-                    if 'RT' in pre:
+                    if "retweeted_status" in json.loads(line):
                         continue
                     else:
+                        # count unique tweets
+                        num += 1
+                        # get context without url & emoji
+                        pre = clean(json.loads(line)["text"])
                         # transfer into lower letter and split into words
                         words.append(pre.lower().split())
         flat_words = list(itertools.chain(*words))
