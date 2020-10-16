@@ -1,4 +1,4 @@
-# Applied-Cloud-Computing-Assignment-III
+# ACC-C3
 
 Using RabbitMQ as the borker for the Celery, and using Flask to show a json document as well.
 
