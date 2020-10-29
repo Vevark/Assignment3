@@ -1,4 +1,4 @@
-# ACC-C3
+# Assignment 3 of ACC
 
 Using RabbitMQ as the borker for the Celery, and using Flask to show a json document as well.
 
